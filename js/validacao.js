@@ -23,26 +23,26 @@ const tiposDeErro = [
 
 const mensagensDeErro = {
   nome: {
-      valueMissing: 'O campo de nome não pode estar vazio.'
+      valueMissing: 'O campo de nome não pode ficar vazio.'
   },
   email: {
-      valueMissing: 'O campo de email não pode estar vazio.',
+      valueMissing: 'O campo de email não pode ficar vazio.',
       typeMismatch: 'O email digitado não é válido.'
   },
   senha: {
-      valueMissing: 'O campo de senha não pode estar vazio.',
+      valueMissing: 'O campo de senha não pode ficar vazio.',
       patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
   },
   dataNascimento: {
-      valueMissing: 'O campo de data de nascimento não pode estar vazio.',
+      valueMissing: 'O campo de data de nascimento não pode ficar vazio.',
       customError: 'Você deve ser maior que 18 anos para se cadastrar.'
   },
   cpf: {
-      valueMissing: 'O campo de CPF não pode estar vazio.',
+      valueMissing: 'O campo de CPF não pode ficar vazio.',
       customError: 'O CPF digitado não é válido.' 
   },
   cep: {
-    valueMissing: 'O campo de CEP não pode estar vazio.',
+    valueMissing: 'O campo de CEP não pode ficar vazio.',
     patternMismatch: 'O CEP digitado não é válido.',
     customError: 'O CEP é inválido.'
 
@@ -55,6 +55,9 @@ const mensagensDeErro = {
   },
   estado: {
     valueMissing: 'O campo de estado não pode estar vazio'
+  },
+  preco: {
+    valueMissing: 'O campo de preço não pode ficar vazio'
   }
 }
 
